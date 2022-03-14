@@ -7,7 +7,7 @@ import pickle
 name=input("enter name")
 ref_id=input("enter id")
 
-#guardar as imagens e relacionar com a pessoa
+#guardar as imagens e relacionar com a pessoa para reconhecimento
 try:
     f=open("ref_name.pkl","rb")
     ref_dictt=pickle.load(f)
